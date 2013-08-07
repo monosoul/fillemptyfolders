@@ -1,0 +1,10 @@
+fillemptyfolders
+================
+
+Simple script to fill empty folders with .gitignore to save folder structure
+
+Usage:
+./fillemptyfolders.sh <folder>
+
+Example:
+./fillemptyfolders.sh . - will scan current directory for empty folders and create empty .gitignore inside them
